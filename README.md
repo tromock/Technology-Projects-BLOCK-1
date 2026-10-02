@@ -1,3 +1,4 @@
+hello
 # Technology Projects BLOCK 1
 
 Welcome! This repository is organized as a student lab journal for an introductory technology curriculum. It is divided into module folders that guide classroom exploration of hardware, binary logic, low-level programming, and benchmarking concepts.
