@@ -1,0 +1,24 @@
+
+hello_arm:     file format elf64-littleaarch64
+
+
+Disassembly of section .text:
+
+0000000000400078 <_start>:
+  400078:	d2800020 	mov	x0, #0x1                   	// #1
+  40007c:	58000161 	ldr	x1, 4000a8 <msg+0x10>
+  400080:	d28001c2 	mov	x2, #0xe                   	// #14
+  400084:	d2800808 	mov	x8, #0x40                  	// #64
+  400088:	d4000001 	svc	#0x0
+  40008c:	d2800000 	mov	x0, #0x0                   	// #0
+  400090:	d2800ba8 	mov	x8, #0x5d                  	// #93
+  400094:	d4000001 	svc	#0x0
+
+0000000000400098 <msg>:
+  400098:	6c6c6548 	.word	0x6c6c6548
+  40009c:	5241206f 	.word	0x5241206f
+  4000a0:	6950204d 	.word	0x6950204d
+  4000a4:	0a21      	.short	0x0a21
+  4000a6:	00980000 	.inst	0x00980000 ; undefined
+  4000aa:	0040      	.short	0x0040
+  4000ac:	00000000 	.word	0x00000000
